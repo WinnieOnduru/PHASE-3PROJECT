@@ -89,7 +89,7 @@ In this section, we will examine the relationship between the variables using un
 
 ## Univariate Analysis
 
-![Image](Visualizations/Visualization1.png)
+![Image](Visualization1.png)
 
 #### *Inference*
 
