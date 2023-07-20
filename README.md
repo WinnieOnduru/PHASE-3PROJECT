@@ -109,7 +109,7 @@ From the graph, people who had their doctors recommend to them the vaccine, had 
 
 ### ii) Respondent's opinion about seasonal flu vaccine effectiveness.
 
-![Image](Visualizations/Vaccine effectiveness.png)
+![Image](Vaccine effectiveness.png)
 
 From the graph, people that rate the vaccine as 5 (Very Effective) have a mean vaccination rate of 70% and hence are more likely to have gotten the vaccine as compared to the other respondents. 
 
@@ -123,7 +123,7 @@ Health workers are more likely to get the flu vaccine than the rest of the popul
 
 ### iv) Health Insurance
 
-![Image](Visualizations/Health insurance.png)
+![Image](Health insurance.png)
 
 From the graph, People with insurance had a higher mean vaccination rate of 54% as compared to 23% for people with no insurance.
 
@@ -131,7 +131,7 @@ People with health insurance are more likely to have gotten the vaccine whereas 
 
 ### v) Perceived Risk of Getting Sick from Flu Vaccine
 
-![Image](Visualizations/Perceived risk.png)
+![Image](Perceived risk.png)
 
 Here a higher rating means the individual is more concerned about getting sick from the flu vaccine itself. 
 
@@ -141,7 +141,7 @@ From the graph, people with a perceived risk rating of 1 (Not at all worried) ha
 
 ### vi) Income Level
 
-![Image](Visualizations/Income level.png)
+![Image](Income level.png)
 
 This is in reference to the household annual income of respondents with respect to 2008 Census poverty thresholds.
 
@@ -149,19 +149,19 @@ From the graph, individuals living with a household income below the 2008 Census
 
 ### vii) Race
 
-![Image](Visualizations/Race.png)
+![Image](Race.png)
 
 From the graph, the mean vaccination rates is fairly distributed amongst the different races, with White people being the highest likely to get vaccinated (a mean vaccination rate of 49%), while Hispanic people having the lowest vaccination rate at 34%.
 
 ### viii) Chronic Medical Condition
 
-![Image](Visualizations/Chronic med condition.png)
+![Image](Chronic med condition.png)
 
 From the graph, people with a chronic medical condition such as asthma or any other lung condition, diabetes, a heart condition or a weakened immune system, are highly likely to get vaccinated, with a mean vaccination rate of 60%, as compared to people with no chronic medical condition who have a vaccine uptake rate of 42%.
 
 ### ix) Behavior (touching face)
 
-![Image](Visualizations/Behavior(touching face).png)
+![Image](Behavior(touching face).png)
 
 From the graph, people who have avoided touching their face(eyes, nose, or mouth) have a higher mean vaccination rate of 51%.
 
@@ -169,7 +169,7 @@ This could be due to the fact that they want to combine all the efforts at their
 
 ### x) Education
 
-![Image](Visualizations/Education.png)
+![Image](Education.png)
 
 The proportion of people vaccinated within each level of education category increases with increasing level of education. 
 
@@ -183,7 +183,7 @@ As we can see from the graph, college graduates had the highest mean vaccination
 
 - Create a variable that represents how much an individual has done behaviorally to avoid the flu, aside from getting vaccinated, by summing up all behavioral variables. These are all binary columns with **1** representing **YES**, meaning the person has engaged in a behavior that reduces the risk of contracting the flu. By taking the sum across these columns, a higher score represents a more cautious, flu-conscious individual.
 
-![Image](Visualizations/Behavior Score.png)
+![Image](Behavior Score.png)
 
 
 #### *Inference*
@@ -196,7 +196,7 @@ From the above bar plot, we can denote that:
 
 - Create a variable that represents an individual's overall risk for developing flu-related complications. Some individuals are naturally at higher risk of developing complications. This includes people working in the healthcare industry, people 65 years and older, children 6 months or younger, and people with chronic medical conditions such as lung conditions, diabetes and heart conditions.
 
-![Image](Visualizations/Risk Score.png)
+![Image](Risk Score.png)
 
 #### *Inference*
 
@@ -454,7 +454,7 @@ The best and final model is the tuned XGBoost based on the below:
 - This will enable for consistency and accurate assessment of our trained model in terms of its ability to generalize to new unseen datasets.
 - After all the preprocessing steps, we make predictions and finally compare and visualize our predictions to the actual labels, to get a sense of how our best model is performing, as shown by the plot below.
 
-![Image](Visualizations/Actual vs Predictions.png)
+![Image](Actual vs Predictions.png)
 
 - From the plot above, we can see that our model is actually performing quite well in predicting both classes! With just some minor inaccuracy.
 
